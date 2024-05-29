@@ -13,4 +13,6 @@ git add 특정파일(위치포함)
 # local repository에 반영 및 커밋이력 생성
 git commit -m "메시지 타이틀" -m "메시지 내용"
 
+# vi 모드에서 작성 : git commit 후 엔터
+
 # commit 이력 확인(local repository)
