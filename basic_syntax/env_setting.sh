@@ -12,7 +12,7 @@ git push origin 브랜치명
 
 
 # 2.제3자 인증(oauth)방식
-testtesttest
+testtest
 
 
 # git 프로젝트 생성방법 2가지
