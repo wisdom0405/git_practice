@@ -40,4 +40,7 @@ git checkout 커밋ID
 # 다시 현재의 master(브랜치)의 commit로 return
 git checkout master
 
+# git fetch
+# 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
+# 비교 : git pull origin master와 git fetch origin master 비교
 
