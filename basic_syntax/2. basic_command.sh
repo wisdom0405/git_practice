@@ -72,3 +72,16 @@ git push origin v1.0
 
 # 태그 목록 조회
 git tag
+
+# branch 생성
+# 현재 checkout 하고 있는 브랜치를 기준으로 브랜치 생성
+git branch 브랜치명
+git branch feature/author_register # 보통 기능단위로 branch 명 지정
+
+# 해당 branch로 전환
+git checkout 브랜치명
+git checkout feature/author_register
+
+# branch 목록 조회
+git branch
+
