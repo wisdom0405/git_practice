@@ -43,6 +43,8 @@ git checkout master
 # git fetch
 # 원격에 변경사항을 로컬에 가져오되 병합은 하지 않는것
 # 비교 : git pull origin master와 git fetch origin master 비교
+# 모든 브랜치 정보 fetch
+git fetch -all
 
 # git stash : 작업중인 사항을 임시저장
 git stash
@@ -84,4 +86,15 @@ git checkout feature/author_register
 
 # branch 목록 조회
 git branch
+
+# 로컬에서 브랜치 생성시 주의사항 : main 최신화 -> git chekout -b
+# 브랜치 생성과 전환 동시에
+git checkout -b 브랜치 명
+
+# 로컬에서 branch 생성 시 주의사항 : 최신화된 main에서 checkout -b 하라 -> 안그러면 꼬인다
+# git checkout main -> git pull -> git checkout -b feature/test 
+
+# feature 브랜치 생명주기 -> merge가 끝나는 순간 사라져야될 브랜치 
+
+# 원격에서 브랜치 생성 -> 로컬에서 해당 브랜치를 fetch -> feature1, feature2 만ㄷ르기
 
