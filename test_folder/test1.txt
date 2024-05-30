@@ -1,1 +1,2 @@
 hello world1
+stash pop example
