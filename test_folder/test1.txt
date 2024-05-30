@@ -2,7 +2,3 @@ hello world1
 hello world2
 hello world3
 hello world5
-hello world7
-hello world777
-hello world8
-hello world9
