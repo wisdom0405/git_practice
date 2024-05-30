@@ -67,6 +67,7 @@ git stash clear
 # 버전명시 tagging
 git tag v1.0
 git tag v1.0 -m "1. 주요사항1 2. 주요사항2" # 버전명시 + 메시지(주요 변경사항 명시)
+git tag v1.1 -m "1.회원수정기능 추가 2. 회원가입 로직 수정 3. 예약글쓰기 추가"
 
 # tag release 배포
 # commit push와 상관없이 태그(release)는 별도 push
@@ -84,6 +85,7 @@ git branch feature/author_register # 보통 기능단위로 branch 명 지정
 git checkout 브랜치명
 git checkout feature/author_register
 
+<<<<<<< HEAD
 # branch 목록 조회
 git branch
 
