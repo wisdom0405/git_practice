@@ -84,4 +84,3 @@ git checkout 브랜치명
 git checkout feature/author_register
 
 # branch 목록 조회
-git branch
